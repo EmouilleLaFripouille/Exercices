@@ -1,0 +1,28 @@
+{
+    "books":[
+        {
+            "title": "Html et CSS pour les nuls",
+            "author": "Jean Marc Phillipe",
+            "price": 30.50,
+            "available": true
+        },
+        {
+            "title": "JavaScript pour les nuls",
+            "author": "Henri Patrick Julien",
+            "price": 28.45,
+            "available": true
+        },
+        {
+            "title": "Angular pour les nuls",
+            "author": "Jeanne Lucie Béatrice",
+            "price": 24.65,
+            "available": false
+        },
+        {
+            "title": "PHP pour les nuls",
+            "author": "Françoise Julie Marguerite",
+            "price": 12.30,
+            "available": false
+        }
+    ]
+}
