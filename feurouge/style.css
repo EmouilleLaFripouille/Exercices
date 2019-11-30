@@ -1,7 +1,7 @@
 .totality{
     width: 700px;
     height: 550px;
-    background-color: rgb(206, 229, 238);
+    background-color: rgb(161, 211, 230);
     margin: auto;
     margin-top: 120px;
     position: relative;
@@ -93,6 +93,7 @@
     margin-left: 7px;
     margin-top: 40px;
     background-color: rgb(201, 23, 23);
+    outline: none;
 }
 
 .floor{
@@ -108,7 +109,7 @@
     position: absolute;
     background-color: #FFF;
     width: 80px;
-    height: 20px;
+    height: 15px;
     margin-top: 40px;
     margin-left: 40px;
     box-shadow: 1px 0px 2px rgb(29, 28, 28);
@@ -118,9 +119,9 @@
     position: absolute;
     background-color: #FFF;
     width: 80px;
-    height: 20px;
+    height: 15px;
     margin-top: 40px;
-    margin-left: 250px;
+    margin-left: 260px;
     box-shadow: 1px 0px 2px rgb(29, 28, 28);
 }
 
@@ -128,7 +129,7 @@
     position: absolute;
     background-color: #FFF;
     width: 80px;
-    height: 20px;
+    height: 15px;
     margin-top: 40px;
     margin-left: 500px;
     box-shadow: 1px 0px 2px rgb(29, 28, 28);
