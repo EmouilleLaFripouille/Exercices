@@ -18,7 +18,17 @@
     box-shadow: 3px 3px 10px grey;
 }
 
-.firered{
+.off-fire-r{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    background: rgb(71, 23, 23);
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.fire-red{
     width: 40px;
     height: 40px;
     border-radius: 20px;
@@ -28,18 +38,16 @@
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
-.offfirer{
+.off-fire-y{
     width: 40px;
     height: 40px;
     border-radius: 20px;
     margin-left: 20px;
-    margin-top: 15px;
-    background: rgb(66, 32, 32);
-    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background: rgb(58, 37, 14);
+    box-shadow: 1px 1px 5px rgb(3, 3, 3);
 }
 
-
-.fireyellow{
+.fire-yellow{
     width: 40px;
     height: 40px;
     border-radius: 20px;
@@ -48,16 +56,16 @@
     box-shadow: 1px 1px 5px rgb(3, 3, 3);
 }
 
-.offfirey{
+.off-fire-g{
     width: 40px;
     height: 40px;
     border-radius: 20px;
     margin-left: 20px;
-    background: rgb(128, 88, 42);
-    box-shadow: 1px 1px 5px rgb(3, 3, 3);
+    background: rgb(21, 46, 21);
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
-.firegreen{
+.fire-green{
     width: 40px;
     height: 40px;
     border-radius: 20px;
@@ -66,14 +74,6 @@
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
-.offireg{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    margin-left: 20px;
-    background: rgb(33, 73, 33);
-    box-shadow: 1px 1px 5px rgb(0, 0, 0);
-}
 
 .stake{
     background-color: rgb(110, 109, 109);
