@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Ma To Do List</title>
+</head>
+
+<body>
+
+<header>
+    <div class="leading">
+        <img src="css/header.png" alt="rabbit" />
+        <div class="title">
+            <h1>Ma To Do List</h1>
+        </div>
+    </div>
+</header>
+
+<main>
+    <form action="#confirm" id="formulaire" method="GET">
+        <fieldset>
+            <label> 
+                <span> Ecris la tâche a faire : </span>
+                <input type="text" id="doList" /> 
+            </label>
+            <label> 
+                <button type="submit"> Valider </button> 
+            </label>
+        </fieldset>
+    </form>
+    <div class="vignet-list">
+        <div class="to-do">
+            <div class="text-todo">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox"> Lorem ipsum dolor sit amet. </label>
+                <div class="cross-end">
+                <img src="css/cross.png" onclick="javascript:tafonction();" alt="cross" style="cursor:pointer;" />
+                </div>
+            </div>
+        </div>
+        <div class="to-do">
+            <div class="text-todo">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox"> Lorem ipsum dolor sit amet. </label>
+                <div class="cross-end">
+                <img src="css/cross.png" onclick="javascript:tafonction();" alt="cross" style="cursor:pointer;" />
+                </div>
+            </div>
+        </div>
+        <div class="to-do">
+            <div class="text-todo">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox"> Lorem ipsum dolor sit amet. </label>
+                <div class="cross-end">
+                <img src="css/cross.png" onclick="javascript:tafonction();" alt="cross" style="cursor:pointer;" />
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footerGif">
+    <img src="css/totoro.gif" alt="totoro">
+    </div>
+</footer>
+
+    
+<script src="./index.js"></script>
+</body>
+</html>

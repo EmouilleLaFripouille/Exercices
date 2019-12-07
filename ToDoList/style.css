@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap');
+
+
+body{
+    background-image: url(css/fond.png);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.leading{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.title{
+    position: absolute;
+    left: 835px;
+    top: 0px;
+    font-size: 22px;
+    color: rgb(230, 157, 189);
+}
+
+#formulaire{
+    width: 600px;
+    position: absolute;
+    left : 650px;
+    top: 300px;
+}
+
+#formulaire label{
+	display:block;
+	margin-bottom: 10px;
+}
+
+#formulaire label > span{
+	float: left;
+    width: 130px;
+    margin-top: 20px;
+    margin-right: 10px;
+	color: rgba(235, 128, 174, 0.979);
+	font-weight: bold;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+#formulaire fieldset{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #FFD2D2;
+	padding: 20px;
+	background: #FFF4F4;
+	box-shadow: inset 0px 0px 15px #FFE5E5;
+	-moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+	-webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+
+#formulaire #doList{
+	width: 500px;
+	height: 40px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #FFC2DC;
+	outline: none;
+	color: #F072A9;
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px #FFD5E7;
+	-moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+	-webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+	background: #FFEFF6;
+	width:50%;
+}
+
+#formulaire button[type=submit],
+#formulaire button[type=button]{
+	background: rgb(223, 89, 163);
+	border: 1px solid #C94A81;
+	padding: 5px 15px 5px 15px;
+	color: rgb(245, 230, 237);
+	box-shadow: inset -1px -1px 3px #FF62A7;
+	-moz-box-shadow: inset -1px -1px 3px #FF62A7;
+	-webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+	border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;	
+	font-weight: bold;
+    position: absolute;
+    right: 30px;
+    bottom: 58px;
+}
+
+.vignet-list{
+    margin-top : 300px;
+}
+
+
+.to-do{
+    background-image: url(css/banniere.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 250px;
+    margin-left: 650px;
+}
+
+.text-todo{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 15px;
+    font-family: 'Quantico', sans-serif;
+}
+
+.cross-end{
+    text-align: right;
+    
+}
+
+.footerGif{
+    text-align: center;
+}
